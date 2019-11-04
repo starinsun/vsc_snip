@@ -1,0 +1,19 @@
+{
+  "taro": {
+    "prefix":"taho",
+    "body": [
+      "import Taro from '@tarojs/taro'",
+      "",
+      "const ${1:name} = () => {",
+      "  ${3:body}",
+      "}",
+      "",
+      "export default ${1:name}",
+      "",
+      "${1:name}.config = {",
+      "  navigationBarTitleText: ${2:name}",
+      "}"
+    ],
+    "description": "snippet for taro and hooks"
+  }
+}
